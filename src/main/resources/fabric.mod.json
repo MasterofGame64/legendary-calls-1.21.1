@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "legendarycalls",
+	"version": "${version}",
+	"name": "Legendary Calls",
+	"description": "This is a way to summon legendary Cobblemon!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://jayl.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/legendarycalls/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jayl.legendarycalls.LegendaryCalls"
+		],
+		"fabric-datagen": [
+			"net.jayl.legendarycalls.LegendaryCallsDataGenerator"
+		],
+		"client": [
+			"net.jayl.legendarycalls.LegendaryCallsClient"
+		]
+	},
+	"mixins": [
+		"legendarycalls.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
