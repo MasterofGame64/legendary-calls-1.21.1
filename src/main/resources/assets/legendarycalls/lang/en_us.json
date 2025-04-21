@@ -1,4 +1,7 @@
 {
   "item.legendarycalls.pink_garnet": "Pink Garnet",
-  "item.legendarycalls.raw_pink_garnet": "Raw Pink Garnet"
+  "item.legendarycalls.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.legendarycalls.pink_garnet_block": "Pink Garnet Block",
+  "block.legendarycalls.raw_pink_garnet_block": "Raw Pink Garnet Block"
 }
